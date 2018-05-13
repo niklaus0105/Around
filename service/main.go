@@ -9,6 +9,7 @@ import (
 elastic "gopkg.in/olivere/elastic.v3"
 "reflect"
 "github.com/pborman/uuid"
+"strings"
 )
 
 const (
@@ -180,17 +181,17 @@ func handlerSearch(w http.ResponseWriter, r *http.Request) {
  	fmt.Printf("Post is saved to Index: %s\n", p.Message)
  }
 
-// func containsFilteredWords(s *string) bool {
-//        filteredWords := []string{
-//                "fuck",
-//                "150",
-//        }
-//        for _, word := range filteredWords {
-//                if strings.Contains(*s, word) {
-//                        return true
-//                }
-//        }
-//        return false
-//}
+func containsFilteredWords(s *string) bool {
+       filteredWords := []string{
+               "fuck",
+               "150",
+       }
+       for _, word := range filteredWords {
+               if strings.Contains(*s, word) {
+                       return true
+               }
+       }
+       return false
+}
 
 
