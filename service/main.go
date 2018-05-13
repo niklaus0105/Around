@@ -19,7 +19,7 @@ const (
       //PROJECT_ID = "around-xxx"
       //BT_INSTANCE = "around-post"
       // Needs to update this URL if you deploy it to cloud.
-	ES_URL = "http://146.148.75.102:9200"
+	ES_URL = "http://35.226.52.244:9200"
 )
 
 
@@ -180,17 +180,17 @@ func handlerSearch(w http.ResponseWriter, r *http.Request) {
  	fmt.Printf("Post is saved to Index: %s\n", p.Message)
  }
 
- func containsFilteredWords(s *string) bool {
-        filteredWords := []string{
-                "fuck",
-                "150",
-        }
-        for _, word := range filteredWords {
-                if strings.Contains(*s, word) {
-                        return true
-                }
-        }
-        return false
-}
+// func containsFilteredWords(s *string) bool {
+//        filteredWords := []string{
+//                "fuck",
+//                "150",
+//        }
+//        for _, word := range filteredWords {
+//                if strings.Contains(*s, word) {
+//                        return true
+//                }
+//        }
+//        return false
+//}
 
 
