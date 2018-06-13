@@ -18,17 +18,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2899">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-4912">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+              <folding>
+                <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+                <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ml.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ml.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#147#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -39,13 +76,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/ml.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
@@ -65,9 +103,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -82,11 +119,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoConfigurableProvider$GoProjectSettingsConfigurable" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="configurable.Global.libraries.is.expanded" value="true" />
+    <property name="configurable.Project.libraries.is.expanded" value="true" />
+    <property name="configurable.Module.libraries.is.expanded" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -337,7 +379,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -383,41 +425,239 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#14#147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2899">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4912">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+          <folding>
+            <marker date="1527458234023" expanded="true" signature="8225:8227" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8358:9066" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8434:8461" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8627:8654" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8751:8778" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8813:8840" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="8922:8949" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9135:9506" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9257:9283" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9422:9448" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9548:10267" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="9700:9738" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10174:10206" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10312:10473" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10340:10363" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10400:10457" ph="{...}" />
+            <marker date="1527458234023" expanded="true" signature="10434:10454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding>
+            <element signature="e#14#147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

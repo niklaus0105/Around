@@ -136,14 +136,14 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
       if checkUser(u.Username, u.Password) {
              token := jwt.New(jwt.SigningMethodHS256)
              claims := token.Claims.(jwt.MapClaims) 
-             /* Set token claims, claims = payload */
+             // Set token claims, claims = payload 
              claims["username"] = u.Username
              claims["exp"] = time.Now().Add(time.Hour * 24).Unix()
 
-             /* Sign the token with our secret */
+             // Sign the token with the secret
              tokenString, _ := token.SignedString(mySigningKey)
 
-             /* Finally, write the token to the browser window */
+             // Finally, write the token to the browser window
              w.Write([]byte(tokenString))
       } else {
              fmt.Println("Invalid password or username.")
